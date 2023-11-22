@@ -1,0 +1,9 @@
+.footer{
+overflow: hidden;
+list-style: none;
+text-decoration: none;
+
+}
+.footer a{
+    color: #000;
+}
