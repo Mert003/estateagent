@@ -4,6 +4,7 @@ import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 
 
+
 const faqData = [
     {
       question: 'How can I list my property with your agency?',
@@ -30,7 +31,7 @@ const faqData = [
 
 function FAQSection() {
   return (
-    <div className='container' style={{marginTop:"7rem"}}>
+    <div className='container my-5'>
       <h2>Frequently Asked Questions</h2>
       <p>Here are some common questions about our services. If you have additional inquiries, feel free to contact us.</p>
       <Accordion defaultActiveKey="0">

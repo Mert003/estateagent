@@ -4,7 +4,7 @@ import {Row,Col} from 'react-bootstrap';
 
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./footer.css";
-import house1 from "../../images/house2.jpg";
+import logo from "../../images/logo.png";
 
 function Footer() {
   return (
@@ -12,7 +12,7 @@ function Footer() {
     <Row className="py-3">
       <Col md={2}>
         {/* Logo Column */}
-        <img src={house1} alt="Logo" className="footer-logo img-fluid" />
+        <img src={logo} alt="Logo" className="footer-logo img-fluid " width={100} />
       </Col>
       <Col md={2}>
         {/* About Us Column */}

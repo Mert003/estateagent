@@ -21,10 +21,12 @@ function App() {
      <Featuresection />
      <Howitworks />
      <Statictic />
-     <Clientreviews />
+     
      <ImageGallerySection />
-     <MeetOurTeam />
+     <Clientreviews />
+    
     <FAQsection />
+    <MeetOurTeam />
     <ContactInfo />
     <Footer />
      </div>
