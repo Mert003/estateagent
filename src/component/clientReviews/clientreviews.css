@@ -4,12 +4,25 @@
     height: 100px;
     object-fit: cover;
 }
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+
+.client-elements{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 10px;
 }
-.flex-item h3{
-   height:auto;
-  
+.container-column{
+    position: relative;
+}
+@media screen and (max-width:992px) {
+    .container-column{
+        margin-top: 35px;
+        border-top: 1px solid gray;
+
+    }
+    .client-elements{
+        position: unset;
+        
+        width: 100%;
+    }
 }

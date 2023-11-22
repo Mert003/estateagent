@@ -8,6 +8,9 @@ import woman1 from "../../images/woman1.jpg";
 import "./clientreviews.css";
 
 const Clientreviews = () => {
+ 
+
+
   return (
     <Container fluid className='client-container container my-5'>
       {/* Header and Paragraph */}
@@ -21,16 +24,16 @@ const Clientreviews = () => {
       </Row>
 
       {/* Three Columns */}
-      <Row className='d-flex'>
+      <Row>
         {/* Column 1 */}
-        <Col sm={12} md={4} className="text-center" style={{flex:1}}>
-        <div>
+        <Col md={12} lg={4} className="text-center " >
+         <div>
             {[1, 2, 3, 4, 5].map((star) => (
               <FaStar key={star} color="gold" />
             ))}
           </div>
 
-          <h3 style={{flex:1}}>Our experience with this company has been exceptional.</h3>
+          <h4>Our experience with this company has been exceptional.</h4>
          
           <img
             src={man1} // Replace with your image URL
@@ -40,18 +43,20 @@ const Clientreviews = () => {
           <h5>John Doe</h5>
           <p>CEO, ABC Company</p>
           <FaLinkedin size={36} />
+        
         </Col>
 
         {/* Column 2 */}
-        <Col sm={12} md={4} className="text-center" style={{flex:1}}>
+        <Col md={12} lg={4} className="text-center container-column" >
         <div>
             {[1, 2, 3, 4, 5].map((star) => (
               <FaStar key={star} color="gold" />
             ))}
           </div>
 
-          <h3 style={{flex:1}}>Working with this company has been good change for us.</h3>
-          
+          <h4>Working with this company has been good change for us.</h4>
+
+          <div className='client-elements'>
           <img
             src={woman1} // Replace with your image URL
             alt="Client 2"
@@ -60,18 +65,20 @@ const Clientreviews = () => {
           <h5>Jane Smith</h5>
           <p>Marketing Manager, XYZ Inc.    </p>
           <FaLinkedin size={36} />
+          </div>
         </Col>
 
         {/* Column 3 */}
-        <Col sm={12} md={4} className="text-center" style={{flex:1}}>
+        <Col md={12} lg={4} className="col-md-6 text-center container-column" >
         <div>
             {[1, 2, 3, 4, 5].map((star) => (
               <FaStar key={star} color="gold" />
             ))}
           </div>
 
-          <h3 >We highly recommend this company for their expertise.</h3>
-          
+          <h4>We highly recommend this company for their expertise.</h4>
+
+          <div className='client-elements'>
           <img
             src={man2} // Replace with your image URL
             alt="Client 3"
@@ -80,6 +87,7 @@ const Clientreviews = () => {
           <h5>David Johnson</h5>
           <p>CFO, 123 Corporation</p>
           <FaLinkedin size={36} />
+          </div>
         </Col>
       </Row>
     </Container>
