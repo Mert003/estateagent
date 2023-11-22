@@ -1,4 +1,4 @@
-import React ,  { useEffect, useState } from 'react';
+import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaStar, FaLinkedin } from 'react-icons/fa';
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
@@ -8,22 +8,6 @@ import woman1 from "../../images/woman1.jpg";
 import "./clientreviews.css";
 
 const Clientreviews = () => {
- 
-  const [maxHeight, setMaxHeight] = useState(200);
-
-  useEffect(() => {
-    // Find the maximum height among h3 elements
-    const heights = Array.from(document.querySelectorAll('.flex-item h3')).map(
-      (h3) => h3.offsetHeight
-    );
-    const maxHeight = Math.max(...heights);
-
-    // Set the maximum height to state
-    console.log(maxHeight);
-    setMaxHeight(maxHeight);
-  }, []); // Run this effect only once when the component mounts
-
-
   return (
     <Container fluid className='client-container container my-5'>
       {/* Header and Paragraph */}
@@ -39,14 +23,14 @@ const Clientreviews = () => {
       {/* Three Columns */}
       <Row className='d-flex'>
         {/* Column 1 */}
-        <Col sm={12} md={4} className="text-center flex-items" style={{flex:1}}>
+        <Col sm={12} md={4} className="text-center" style={{flex:1}}>
         <div>
             {[1, 2, 3, 4, 5].map((star) => (
               <FaStar key={star} color="gold" />
             ))}
           </div>
 
-          <h3 style={{height:`${maxHeight}px` }}>Our experience with this company has been exceptional.</h3>
+          <h3 style={{flex:1}}>Our experience with this company has been exceptional.</h3>
          
           <img
             src={man1} // Replace with your image URL
@@ -59,14 +43,14 @@ const Clientreviews = () => {
         </Col>
 
         {/* Column 2 */}
-        <Col sm={12} md={4} className="text-center flex-items" style={{flex:1}}>
+        <Col sm={12} md={4} className="text-center" style={{flex:1}}>
         <div>
             {[1, 2, 3, 4, 5].map((star) => (
               <FaStar key={star} color="gold" />
             ))}
           </div>
 
-          <h3 style={{height:`${maxHeight}px` }}>Working with this company has been good change for us.</h3>
+          <h3 style={{flex:1}}>Working with this company has been good change for us.</h3>
           
           <img
             src={woman1} // Replace with your image URL
@@ -79,14 +63,14 @@ const Clientreviews = () => {
         </Col>
 
         {/* Column 3 */}
-        <Col sm={12} md={4} className="text-center flex-items" style={{flex:1}}>
+        <Col sm={12} md={4} className="text-center" style={{flex:1}}>
         <div>
             {[1, 2, 3, 4, 5].map((star) => (
               <FaStar key={star} color="gold" />
             ))}
           </div>
 
-          <h3 style={{height:`${maxHeight}px` }} >We highly recommend this company for their expertise.</h3>
+          <h3 >We highly recommend this company for their expertise.</h3>
           
           <img
             src={man2} // Replace with your image URL
