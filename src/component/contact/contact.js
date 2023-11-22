@@ -7,7 +7,7 @@ import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 function ContactInfo() {
   return (
-    <Container className='mt-5 text-center'>
+    <Container className='text-center' style={{marginTop:"7rem"}}>
     <Row >
       <Col md={4}>
         <Card className=" border-0">

@@ -13,21 +13,21 @@ const MeetOurTeam = () => {
       name: 'John Doe',
       role: 'CEO',
       expertise: 'Leadership',
-      description: 'Passionate about driving innovation and leading the team to achieve great success. John brings years of experience in strategic planning and business development.',
+      description: 'Passionate about driving innovation and leading the team to achieve great success. ',
     },
     {
       image: woman1, // Replace with the image URL of the team member
       name: 'Jane Smith',
       role: 'Marketing Specialist',
       expertise: 'Digital Marketing',
-      description: 'With a creative mindset and a deep understanding of digital marketing trends, Jane crafts compelling campaigns that resonate with our audience and drive engagement.',
+      description: 'With a creative mindset and a deep understanding of digital marketing trends.',
     },
     {
       image: man2, // Replace with the image URL of the team member
       name: 'Bob Johnson',
       role: 'Developer',
       expertise: 'Web Development',
-      description: 'As a dedicated developer, Bob brings technical expertise to the team. His passion for coding and problem-solving ensures the delivery of high-quality and scalable solutions.',
+      description: 'His passion for coding and problem-solving ensures the delivery of high-quality and scalable solutions.',
     },
   ];
 

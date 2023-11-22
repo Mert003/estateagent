@@ -30,7 +30,7 @@ const faqData = [
 
 function FAQSection() {
   return (
-    <div className='container mt-5'>
+    <div className='container' style={{marginTop:"7rem"}}>
       <h2>Frequently Asked Questions</h2>
       <p>Here are some common questions about our services. If you have additional inquiries, feel free to contact us.</p>
       <Accordion defaultActiveKey="0">
