@@ -16,11 +16,11 @@ function Footer() {
       </Col>
       <Col md={2}>
         {/* About Us Column */}
-        <h5>About Us</h5>
+        <h5>Menu</h5>
         <ul className="list-unstyled">
-          <li><a href="/gallery" className="text-decoration-none">Gallery</a></li>
-          <li><a href="/services" className="text-decoration-none">Services</a></li>
-          <li><a href="/team" className="text-decoration-none">Team</a></li>
+          <li><a href="#home" className="text-decoration-none">Home</a></li>
+          <li><a href="#services" className="text-decoration-none">Services</a></li>
+          <li><a href="#meet" className="text-decoration-none">Team</a></li>
         </ul>
       </Col>
       <Col md={2}>
