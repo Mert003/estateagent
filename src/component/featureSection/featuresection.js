@@ -5,7 +5,7 @@ import featureImage from "../../images/house2.jpg";
 
 const Featuresection = () => {
   return (
-    <Container fluid className='container mt-5'>
+    <Container fluid className='container mt-5' id='about'>
       <Row>
         {/* First Column */}
         <Col sm={12} md={6} className='align-self-center'>
@@ -15,7 +15,7 @@ const Featuresection = () => {
             <p>
             We offer a wide range of services for property buying, selling, renting, and property management. Our team of experienced agents will guide you through the process and help you find the perfect property for your needs.
             </p>
-            <Button variant="primary" className="mr-2">
+            <Button variant="primary" className="mx-2">
               Get Started
             </Button>
             <Button variant="outline-primary">Learn More</Button>
@@ -23,7 +23,7 @@ const Featuresection = () => {
         </Col>
 
         {/* Second Column */}
-        <Col sm={12} md={6}>
+        <Col sm={12} md={6} className='d-none d-md-flex '>
           <img
             src={featureImage} // Replace with your image URL
             alt="Dream Home"

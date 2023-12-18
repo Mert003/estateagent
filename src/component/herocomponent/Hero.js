@@ -9,7 +9,7 @@ const Hero = () => {
   
 
   return (
-    <div className='hero d-flex justify-content-center align-items-center'>
+    <div className='hero d-flex justify-content-center align-items-center' id='home'>
     <Container fluid className="container pt-5 text-center " >
       <Row className='Row  '>
         <Col md={6} className='col'>

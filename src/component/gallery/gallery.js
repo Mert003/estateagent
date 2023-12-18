@@ -11,7 +11,7 @@ import "./gallery.css";
 
 const ImageGallerySection = () => {
   return (
-    <Container fluid className='container' style={{marginTop:"7rem"}}>
+    <Container fluid className='container' style={{marginTop:"7rem"}} id='gallery'>
       {/* Header */}
       <Row>
         <Col className="text-left mx-4">

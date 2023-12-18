@@ -8,7 +8,7 @@ import logo from "../../images/logo.png";
 
 function Footer() {
   return (
-    <footer className="footer mt-2 bg-light w-100">
+    <footer className="footer mt-2 bg-light w-100 text-center">
     <Row className="py-3">
       <Col md={2}>
         {/* Logo Column */}

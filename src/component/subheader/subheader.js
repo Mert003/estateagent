@@ -7,10 +7,10 @@ const Subheader = () => {
   return (
     <Container className='subContainer'>
     <Row>
-    <Col md={6} className='subContainerCols'>
+    <Col md={6} className='subContainerCols text-center text-sm-left'>
       <h1>Find Your Dream Home</h1>
     </Col>
-    <Col md={6} className='subContainerCols'>
+    <Col md={6} className='subContainerCols  text-center text-sm-left'>
       <p>
       Welcome to our estate agent company, where we help you find the perfect home that suits your needs and preferences. With our expertise and personalized service, we make the process of buying or renting a property easy and enjoyable.
       </p>

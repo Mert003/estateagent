@@ -32,7 +32,7 @@ const MeetOurTeam = () => {
   ];
 
   return (
-    <Container className='mt-4'>
+    <Container className='mt-4' id='team'>
       {/* Header */}
       <Row>
         <Col className="text-center">
