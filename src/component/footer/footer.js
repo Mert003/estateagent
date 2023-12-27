@@ -16,7 +16,7 @@ function Footer() {
           <img src={logo} alt="Logo" className="footer-logo img-fluid " width={100} />
         </Col>
         <Col md={2}>
-          {/* About Us Column */}
+          {/* Menu Column */}
           <h5>Menu</h5>
           <ul className="list-unstyled">
             <Link activeClass="active" to="home" offset={50}><li>Home</li></Link>
